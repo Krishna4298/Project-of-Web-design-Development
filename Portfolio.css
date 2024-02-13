@@ -1,0 +1,356 @@
+nav {
+    background-color: rgba(156, 156, 156, 0.185); /* Set the background color */
+  }
+  
+  nav ul {
+    z-index: 999;
+    list-style-type: none; /* Remove the default bullet points */
+    margin: 0%;
+    padding: 0%;
+    text-align: center; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+  }
+  
+  nav ul li {
+    display: inline-block; /* Display the list items horizontally */
+  }
+  
+  nav ul li a {
+    display: block;
+    color: #000000; /* Set the color of the links */
+    text-decoration: none; /* Remove the underline */
+    padding: 14px 16px; /* Add some padding around the links */
+    font-size: 18px;
+  }
+  
+  nav ul li a:hover {
+    /* background-color: #555; Change the background color on hover */
+  }
+
+  body{
+    margin: 0%;
+    padding: 0%;
+  }
+
+img {
+    width: 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  position: absolute;  
+  z-index: -1;
+  display: flex;
+}
+
+.heading-1 {
+    font-weight: 50px;
+    font-size: large;
+    margin: 0px;
+    color: #ffffff;
+    text-align: center;
+    padding: 140px 0px 0px 0px ;
+    letter-spacing: 0.17em;
+    font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+li :hover {
+  font-weight: bolder;
+  text-shadow: 3px 3px 10px black;
+}
+
+.heading-2 {
+  /* padding: 0px 0px 0px 0px ; */
+  margin: 0%;
+  text-align: center;
+  font-size: 120px;
+  color: #ffffff;
+  font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+  letter-spacing: 0.12em;
+}
+
+.heading-3 {
+  margin: 0%;
+  text-align: center;
+  font-size: 22px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+button {
+  border-radius: 0px;
+  width: 120px;
+  height: 40px;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.button-1 :hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  transition: 0.4s;
+  border: 10px;
+}
+.gap {
+  width: auto;
+  height: 470px;
+  background-color: transparent;
+}
+
+/* section {
+  width: 50%;
+  background-color: white;
+  height: 700px;
+  margin: 0%;
+
+} */
+
+.baba {
+  background-color: white;
+  width: 50%;
+  height: 700px;
+}
+
+.papa-1 {
+  font-size: 40px;
+  padding: 0px 0px 0px 150px;
+  height: 80px;
+  width: 0%;
+  margin: 0%;
+}
+
+.papa-2 {
+  font-size: 50px;
+  margin: 0%;
+  padding: 0px 0px 0px 150px;
+  width: 20%;
+  font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+  
+}
+
+.papa-3 {
+  padding: 0px 20px 0px 150px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-2 :hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  transition: 0.6s;
+  border-color: #000000;
+} 
+.ramram {
+  width: 50%;
+  float: right;
+}
+
+section img {
+  width: 50%;
+  height: 700px;
+  float: right;
+  z-index: 1;
+}
+
+.gap-1 {
+  width: auto;
+  height: 100px;
+  background-color: transparent;
+}
+
+.jaan-1 {
+  color: #ffffff;
+  background-color: transparent;
+  font-size: 40px;
+  padding: 0px 0px 0px 150px;
+  height: 80px;
+  width: 0%;
+  margin: 0%;
+}
+
+.jaan-2 {
+  color: #ffffff;
+  background-color: transparent;
+  font-size: 50px;
+  margin: 0%;
+  padding: 0px 0px 0px 150px;
+  width: 40%;
+  font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+}
+
+.babu-1 {
+  margin: 44px;
+  justify-content: center;
+  display:flex;
+  flex-wrap:wrap;
+  gap:2rem;
+}
+
+.babu-1 > * {
+  border: 7px solid white;
+  height: 400px;
+  width: 50%;
+  background:transparent;
+}
+
+.babu-1 .heading {
+  justify-content: center;
+  text-align: center;
+  background:transparent;
+  font-size: 30px;
+  margin: 0%;
+  /* width: 20%; */
+padding: 40px 30px 10px 30px;
+font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+}
+
+/* tablet breakpoint */
+@media (min-width:768px) {
+  .babu-1 > * {
+      width:calc((80% - 4rem) / 3);
+  }
+}
+.kaka-1 {
+  text-align: center;
+  padding:0%;
+  margin: 0%;
+}
+.ip{
+  
+ font-size: 20px;
+ color: #000000;
+ font-family: avenir-lt-w01_85-heavy1475544,sans-serif;
+}
+.es{
+margin: 50px 10px 20px 10px;
+}
+.us{
+ margin: 80px 43% 0px 43% ; 
+
+}
+.su{
+  width: 180px;
+  
+  
+}
+
+.gap-2 {
+  width: auto;
+  height: 470px;
+  background-color: transparent;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1170px;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+    padding: 110px 0px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  left:0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+.pipu {
+  width: 100%;
+  height: 250px;
+}
+
+body{
+  background-image: url(nana.jpg);
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+}
